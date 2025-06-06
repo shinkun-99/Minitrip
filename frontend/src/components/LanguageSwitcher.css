@@ -1,0 +1,32 @@
+.language-switcher {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.language-switcher button {
+  padding: 8px 12px;
+  border: 1px solid #61dafb;
+  background-color: transparent;
+  color: #61dafb;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.language-switcher button:hover:not(:disabled) {
+  background-color: #61dafb;
+  color: #282c34;
+}
+
+.language-switcher button:disabled,
+.language-switcher button.active {
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: default;
+  opacity: 0.7;
+}
+.language-switcher button.active {
+    opacity: 1;
+    font-weight: bold;
+}

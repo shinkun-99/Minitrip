@@ -1,0 +1,72 @@
+{
+  "welcome": {
+    "titleLine1": "欢迎来到 MiniTrip",
+    "titleLine2": "您的 AI 旅行伙伴",
+    "getStartedButton": "开始使用"
+  },
+  "home": {
+    "title": "MiniTrip ✈️ AI 旅行规划助手",
+    "backendStatus": {
+      "checking": "正在检查后端状态...",
+      "reachable": "后端: {{message}} ({{status}})",
+      "notReachable": "后端: 无法连接"
+    },
+     "error": {
+        "unexpected": "发生未知错误，请重试。",
+        "couldNotConnect": "无法连接到后端，请确保后端服务正在运行。"
+    }
+  },
+  "form": {
+    "label": {
+      "origin": "出发地:",
+      "destination": "目的地 *:",
+      "startDate": "开始日期 *:",
+      "endDate": "结束日期 *:",
+      "interests": "兴趣偏好:",
+      "pace": "行程节奏:",
+      "otherRequirements":"其他要求"
+    },
+     "placeholder": {
+        "origin": "例如：英国伦敦",
+        "destination": "例如：法国巴黎",
+        "otherRequirements":"请输入特殊要求，如：希望有温泉体验；对海鲜过敏等"
+    },
+    "interest": {
+        "history": "历史", "food": "美食", "nature": "自然", 
+        "art": "艺术", "adventure": "探险", "shopping": "购物",
+        "nightlife": "夜生活", "relaxation": "休闲"
+    },
+    "pace": {
+        "relaxed": "轻松", "moderate": "适中", "packed": "紧凑"
+    },
+    "button": {
+        "submit": "生成我的 MiniTrip!",
+        "submitting": "生成中..."
+    },
+    "alert": {
+        "fillDestinationDates": "请填写目的地、开始日期和结束日期。",
+        "endDateAfterStartDate": "结束日期必须在开始日期之后。"
+    }
+  },
+  "itinerary": {
+    "loadingMessage": "正在精心策划您的完美旅程...",
+    "travelDatesLabel": "旅行日期:",
+    "destinationTimeLabel": "目的地当前时间:",
+    "weatherOutlookLabel": "☀️ 天气展望与提示",
+    "dailyPlansLabel": "🗓️ 每日行程",
+    "dayLabel": "第 {{day}} 天",
+    "dateNotAvailable": "日期不可用",
+    "themeDefault": "当日活动",
+    "dailyWeatherLabel": "当日天气:",
+    "travelTipsLabel": "💡 旅行小贴士",
+    "recommendationSummaryLabel": "🌟 行程推荐总结"
+  },
+  "footer": {
+    "copyright": "© {{year}} MiniTrip。您的 AI 旅行伙伴。"
+  },
+  "languageSwitcher": {
+    "english": "English",
+    "chinese": "简体中文",
+    "japanese": "日本語"
+  }
+}

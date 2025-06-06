@@ -1,0 +1,72 @@
+{
+  "welcome": {
+    "titleLine1": "Welcome to MiniTrip",
+    "titleLine2": "Your AI travel companion",
+    "getStartedButton": "Get Started"
+  },
+  "home": {
+    "title": "MiniTrip ✈️ AI Travel Planner",
+    "backendStatus": {
+      "checking": "Checking backend status...",
+      "reachable": "Backend: {{message}} ({{status}})",
+      "notReachable": "Backend: Not Reachable"
+    },
+    "error": {
+        "unexpected": "An unexpected error occurred. Please try again.",
+        "couldNotConnect": "Could not connect to the backend. Please ensure it's running."
+    }
+  },
+  "form": {
+    "label": {
+      "origin": "Origin:",
+      "destination": "Destination *:",
+      "startDate": "Start Date *:",
+      "endDate": "End Date *:",
+      "interests": "Interests:",
+      "pace": "Preferred Pace:",
+      "otherRequirements":"Special Requests"
+    },
+    "placeholder": {
+        "origin": "e.g., London, UK",
+        "destination": "e.g., Paris, France",
+        "otherRequirements":"Please enter special requests, such as: 'I would like to experience a hot spring' or 'I'm allergic to seafood'."
+    },
+    "interest": {
+        "history": "History", "food": "Food", "nature": "Nature", 
+        "art": "Art", "adventure": "Adventure", "shopping": "Shopping",
+        "nightlife": "Nightlife", "relaxation": "Relaxation"
+    },
+    "pace": {
+        "relaxed": "Relaxed", "moderate": "Moderate", "packed": "Packed"
+    },
+    "button": {
+        "submit": "Generate My MiniTrip!",
+        "submitting": "Generating..."
+    },
+    "alert": {
+        "fillDestinationDates": "Please fill in Destination, Start Date, and End Date.",
+        "endDateAfterStartDate": "End date must be after start date."
+    }
+  },
+  "itinerary": {
+    "loadingMessage": "Crafting your perfect trip...",
+    "travelDatesLabel": "Travel Dates:",
+    "destinationTimeLabel": "Current time in destination:",
+    "weatherOutlookLabel": "☀️ Weather Outlook & Notes",
+    "dailyPlansLabel": "🗓️ Daily Itinerary",
+    "dayLabel": "Day {{day}}",
+    "dateNotAvailable": "Date N/A",
+    "themeDefault": "Activities",
+    "dailyWeatherLabel": "Daily Weather:",
+    "travelTipsLabel": "💡 Travel Tips",
+    "recommendationSummaryLabel": "🌟 Recommendation Summary"
+  },
+  "footer": {
+    "copyright": "© {{year}} MiniTrip. Your AI travel companion."
+  },
+  "languageSwitcher": {
+    "english": "English",
+    "chinese": "简体中文",
+    "japanese": "日本語"
+  }
+}

@@ -1,0 +1,6 @@
+# backend/requirements.txt
+Flask>=2.0
+python-dotenv>=0.19
+requests>=2.25
+openai>=1.0  # Or the latest version
+Flask-CORS>=3.0

@@ -1,0 +1,72 @@
+{
+  "welcome": {
+    "titleLine1": "MiniTripへようこそ",
+    "titleLine2": "あなたのAI旅行コンパニオン",
+    "getStartedButton": "始める"
+  },
+  "home": {
+    "title": "MiniTrip ✈️ AI旅行プランナー",
+    "backendStatus": {
+      "checking": "バックエンドの状態を確認中...",
+      "reachable": "バックエンド: {{message}} ({{status}})",
+      "notReachable": "バックエンド: 接続不可"
+    },
+    "error": {
+        "unexpected": "予期せぬエラーが発生しました。もう一度お試しください。",
+        "couldNotConnect": "バックエンドに接続できませんでした。実行中であることを確認してください。"
+    }
+  },
+  "form": {
+    "label": {
+      "origin": "出発地:",
+      "destination": "目的地 *:",
+      "startDate": "開始日 *:",
+      "endDate": "終了日 *:",
+      "interests": "興味:",
+      "pace": "ペース:",
+      "otherRequirements":"その他"
+    },
+    "placeholder": {
+        "origin": "例：ロンドン、イギリス",
+        "destination": "例：パリ、フランス",
+        "otherRequirements":"温泉を体験したい、海鮮にアレルギーがある、などの特別な要望を入力してください。"
+    },
+    "interest": {
+        "history": "歴史", "food": "グルメ", "nature": "自然", 
+        "art": "芸術", "adventure": "冒険", "shopping": "ショッピング",
+        "nightlife": "ナイトライフ", "relaxation": "リラックス"
+    },
+    "pace": {
+        "relaxed": "リラックス", "moderate": "普通", "packed": "多め"
+    },
+    "button": {
+        "submit": "MiniTripを生成！",
+        "submitting": "生成中..."
+    },
+    "alert": {
+        "fillDestinationDates": "目的地、開始日、終了日を入力してください。",
+        "endDateAfterStartDate": "終了日は開始日より後に設定してください。"
+    }
+  },
+  "itinerary": {
+    "loadingMessage": "あなたの完璧な旅を計画中...",
+    "travelDatesLabel": "旅行日程:",
+    "destinationTimeLabel": "目的地の現在時刻:",
+    "weatherOutlookLabel": "☀️ 天気予報とヒント",
+    "dailyPlansLabel": "🗓️ 毎日の旅程",
+    "dayLabel": "{{day}}日目",
+    "dateNotAvailable": "日付利用不可",
+    "themeDefault": "活動",
+    "dailyWeatherLabel": "当日の天気:",
+    "travelTipsLabel": "💡 旅行のヒント",
+    "recommendationSummaryLabel": "🌟 おすすめ概要"
+  },
+  "footer": {
+    "copyright": "© {{year}} MiniTrip。あなたのAI旅行コンパニオン。"
+  },
+  "languageSwitcher": {
+    "english": "English",
+    "chinese": "简体中文",
+    "japanese": "日本語"
+  }
+}
