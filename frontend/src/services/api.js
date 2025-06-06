@@ -1,8 +1,6 @@
-// frontend/src/services/api.js
 import axios from 'axios';
 
-const API_BASE_URL = '/api'; // Vite proxy will handle this
-
+const API_BASE_URL = '/api';
 export const planTrip = async (tripData) => {
   try {
     const response = await axios.post(`${API_BASE_URL}/plan-trip`, tripData);
